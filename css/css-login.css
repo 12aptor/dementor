@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+main{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+.login{
+    color: #3cf3ff;
+    background-color: #0c201e;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+@media (max-width: 1000px) {
+    main {
+      background-color: #000000;
+      background-image: none;
+    }
+  }
